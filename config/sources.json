@@ -1,0 +1,68 @@
+{
+  "region": "Bihar",
+  "categories": [
+    "Government Jobs",
+    "Admissions",
+    "Scholarships",
+    "Government Schemes"
+  ],
+  "publishing_mode": "automatic_with_validation",
+  "poll_interval_minutes": 30,
+  "sources": [
+    {
+      "id": "sarkariresult",
+      "name": "Sarkari Result",
+      "homepage": "https://sarkariresult.com.cm/",
+      "feed_url": "https://sarkariresult.com.cm/feed/",
+      "monitoring_method": "rss_then_html",
+      "enabled": true,
+      "region_filter": "Bihar",
+      "categories": ["Government Jobs", "Admissions"]
+    },
+    {
+      "id": "onlineupdatestm",
+      "name": "Online Update STM",
+      "homepage": "https://onlineupdatestm.in/",
+      "feed_url": null,
+      "monitoring_method": "category_page_html",
+      "enabled": true,
+      "region_filter": "Bihar",
+      "categories": ["Government Jobs", "Admissions", "Scholarships", "Government Schemes"]
+    },
+    {
+      "id": "dshelpingforever",
+      "name": "DS Helping Forever",
+      "homepage": "https://dshelpingforever.co.in/",
+      "feed_url": null,
+      "monitoring_method": "category_page_html",
+      "enabled": true,
+      "region_filter": "Bihar",
+      "categories": ["Government Jobs", "Admissions", "Scholarships", "Government Schemes"]
+    },
+    {
+      "id": "shikshabindu",
+      "name": "Shiksha Bindu",
+      "homepage": "https://shikshabindu.com/",
+      "feed_url": "https://shikshabindu.com/feed/",
+      "monitoring_method": "rss_then_html",
+      "enabled": true,
+      "region_filter": "Bihar",
+      "categories": ["Admissions", "Scholarships", "Government Jobs", "Government Schemes"]
+    },
+    {
+      "id": "jobsgyan",
+      "name": "Jobs Gyan",
+      "homepage": "https://www.jobsgyan.in/",
+      "feed_url": "https://www.jobsgyan.in/feed/",
+      "monitoring_method": "rss_then_html",
+      "enabled": true,
+      "region_filter": "Bihar",
+      "categories": ["Government Jobs", "Admissions"]
+    }
+  ],
+  "notes": [
+    "Feed URLs are initial candidates from the Stage 0 source audit; verify actual feed responses and category coverage during Stage 3.",
+    "Respect each source website's robots.txt, terms, rate limits and access controls. Back off on 403, 429 and server errors.",
+    "Do not treat aggregator posts as final authority. Extract and retain the official department notification and application URLs."
+  ]
+}
