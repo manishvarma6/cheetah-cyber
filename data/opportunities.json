@@ -1,6 +1,106 @@
 {
-  "opportunities": [],
-  "updated_at": null,
+  "opportunities": [
+    {
+      "id": "rrb-ntpc-ug-cen-07-2026",
+      "title": "RRB NTPC Undergraduate Recruitment 2026",
+      "category": "Government Jobs",
+      "organization": "Railway Recruitment Boards (RRB)",
+      "total_posts": 1688,
+      "qualification_summary": "Class 12 (10+2); post-wise conditions and typing requirements apply",
+      "start_date": "2026-10-15",
+      "last_date": "2026-11-13",
+      "application_fee": "Check official CEN 07/2026 notification",
+      "eligibility_details": [
+        "Undergraduate-level NTPC posts: Commercial-cum-Ticket Clerk, Accounts Clerk-cum-Typist, Junior Clerk-cum-Typist and Trains Clerk.",
+        "Minimum age 18 years; upper age and category relaxations must be checked in the official CEN 07/2026 notification.",
+        "Class 12 qualification and post-specific typing/skill requirements apply."
+      ],
+      "required_documents": [
+        "Recent photograph and signature",
+        "Class 10/12 certificates and marksheets",
+        "Category/EWS/PwBD certificate, if applicable",
+        "Aadhaar or other accepted identity details; check official instructions"
+      ],
+      "application_steps": [
+        "Open the official RRB application portal.",
+        "Select CEN 07/2026 NTPC Undergraduate recruitment.",
+        "Read the detailed notification, confirm eligibility and submit the form before the deadline."
+      ],
+      "official_notification_url": "https://rrb.indianrailways.gov.in/",
+      "apply_url": "https://www.rrbapply.gov.in/#/auth/landing",
+      "source_name": "RRB official website and Indian Express report",
+      "publication_status": "published",
+      "source_article_url": "https://sarkariresult.com.cm/rrb-ntpc-inter-level-07-2026/"
+    },
+    {
+      "id": "bseb-free-jee-neet-coaching-2027",
+      "title": "Bihar Board Free JEE & NEET Coaching Programme 2027",
+      "category": "Admissions",
+      "organization": "Bihar School Examination Board (BSEB)",
+      "total_posts": "",
+      "qualification_summary": "Students appearing in Class 10 examination in 2027; Class 11 admission under Bihar Board condition applies",
+      "start_date": "2026-11-06",
+      "last_date": "2026-11-19",
+      "application_fee": "Free coaching programme; confirm portal instructions",
+      "eligibility_details": [
+        "Students appearing for Class 10 examinations in 2027 through BSEB, CBSE, ICSE or another recognised board may apply.",
+        "Applicants should intend to pursue Class 11 under a Bihar Board-affiliated school; confirm detailed eligibility on the BSEB portal.",
+        "Selection examination is tentatively scheduled for 6 December 2026."
+      ],
+      "required_documents": [
+        "Class 10 registration/academic details",
+        "Recent photograph and signature",
+        "Identity and contact details",
+        "Any documents requested by the official application portal"
+      ],
+      "application_steps": [
+        "Open the official BSEB coaching portal.",
+        "Choose the JEE/NEET coaching programme and read the instructions/advertisement.",
+        "Complete online registration and save the submitted application receipt."
+      ],
+      "official_notification_url": "https://coaching.biharboardonline.com/Index",
+      "apply_url": "https://coaching.biharboardonline.com/Index",
+      "source_name": "BSEB official coaching portal; corroborated by Hindustan Times and NDTV",
+      "publication_status": "published",
+      "source_article_url": "https://shikshabindu.com/bihar-free-coaching-yojana-2027/"
+    },
+    {
+      "id": "ongc-apprentice-2026-3047",
+      "title": "ONGC Apprentice Engagement 2026–27",
+      "category": "Government Jobs",
+      "organization": "Oil and Natural Gas Corporation Limited (ONGC)",
+      "total_posts": 3047,
+      "qualification_summary": "Trade-wise: 10th/ITI, Diploma or Graduate qualifications; check official vacancy table",
+      "start_date": "2026-10-29",
+      "last_date": "2026-11-20",
+      "application_fee": "No application fee",
+      "eligibility_details": [
+        "Total 3,047 tentative apprentice seats across ONGC work centres.",
+        "Age 18–24 years as on 29 November 2026; category-wise relaxations apply.",
+        "Qualification, domicile/work-centre eligibility and application portal depend on the selected trade (NAPS or NATS).",
+        "This is an apprenticeship engagement, not a regular permanent job."
+      ],
+      "required_documents": [
+        "Educational certificates and marksheets relevant to the selected trade",
+        "Proof of date of birth",
+        "Aadhaar/identity details",
+        "Domicile/residence proof where required",
+        "Category certificate, if applicable",
+        "NAPS/NATS registration details"
+      ],
+      "application_steps": [
+        "Read the official ONGC advertisement carefully.",
+        "For NAPS trades, apply through apprenticeshipindia.gov.in; for NATS trades, apply through nats.education.gov.in.",
+        "Choose the correct trade/work centre and submit before the deadline."
+      ],
+      "official_notification_url": "https://www.ongcindia.com/documents/77751/2660534/Advertisement-engagement-Apprentices2026-27.pdf/e926a825-c08b-6403-60f1-ea0232bcaab8",
+      "apply_url": "https://www.ongcindia.com/",
+      "source_name": "ONGC official recruitment advertisement",
+      "publication_status": "published",
+      "source_article_url": "https://www.jobsgyan.in/ongc-apprentice-recruitment/"
+    }
+  ],
+  "updated_at": "2026-11-13",
   "region": "Bihar",
   "publication_policy": "automatic_with_validation"
 }
