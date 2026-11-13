@@ -50,7 +50,7 @@ h2.sec{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:34px;col
 .card .tl{flex:1;padding:22px 24px;min-width:0}
 .card .cat{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:#7a6a5c}
 .card h3{font-family:"Playfair Display",Georgia,serif;font-weight:700;font-size:23px;line-height:1.2;color:#1f0f0d;margin:10px 0 8px}
-.card .q{font-size:13px;color:#6e5f55;margin:0}
+.card .q{font-size:13px;line-height:1.5;color:#6e5f55;margin:0}.card .q+.q{margin-top:4px}.card .q .k{font-weight:600;color:#1f0f0d}
 .card .tr{position:relative;width:112px;flex:none;border-left:2px dashed #B49A6A;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:10px}
 .card .tr::before,.card .tr::after{content:"";position:absolute;left:-10px;width:18px;height:18px;border-radius:50%;background:#3A0B17}
 .card .tr::before{top:-9px}.card .tr::after{bottom:-9px}
@@ -128,8 +128,7 @@ function card(it){
   const n=left(it),cls=status(it)[1];
   const big=n===null||n<0?"—":n;
   const lab=n===null?"CHECK NOTICE":n<0?"CLOSED":n===0?"LAST DAY":n===1?"DAY LEFT":"DAYS LEFT";
-  const sd=short(it.last_date);
-  return '<a class="card '+cls+'" href="#'+encodeURIComponent(it.id)+'"><div class="tl"><div class="cat">'+esc(it.category)+'</div><h3>'+esc(it.title)+'</h3><p class="q">'+esc(it.qualification_summary||"See official notice")+" · "+(sd?"Last date "+esc(sd):"Last date not specified")+'</p></div><div class="tr"><b>'+big+'</b><span>'+lab+'</span></div></a>';
+    return '<a class="card '+cls+'" href="#'+encodeURIComponent(it.id)+'"><div class="tl"><div class="cat">'+esc(it.category)+'</div><h3>'+esc(it.title)+'</h3><p class="q"><span class="k">Qualification:</span> '+esc(it.qualification_summary||"See official notice")+'</p><p class="q"><span class="k">Last Date:</span> '+(it.last_date&&parse(it.last_date)?esc(fmt(it.last_date)):"Not specified")+'</p></div><div class="tr"><b>'+big+'</b><span>'+lab+'</span></div></a>';
 }
 
 function home(){
