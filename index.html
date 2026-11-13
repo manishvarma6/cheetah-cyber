@@ -25,7 +25,7 @@ nav a{color:var(--ivory);text-decoration:none;font-size:11px;letter-spacing:.2em
 nav a:hover{color:var(--gold)}
 @media(max-width:620px){nav a.hide{display:none}}
 .wrap{max-width:1080px;margin:auto;padding:0 22px}
-.hero{background:var(--green);color:var(--ivory);padding:64px 0 40px}
+.hero{background:var(--green);color:var(--ivory);padding:24px 0 40px}
 .eyebrow{font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}
 .hero h1{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:clamp(38px,7vw,68px);line-height:1.05;margin:14px 0 16px;max-width:760px}
 .hero p{max-width:560px;opacity:.82;margin:0 0 30px}
@@ -133,7 +133,7 @@ function card(it){
 
 function home(){
   const cats=["All",...CONFIG.categories];
-  $("#app").innerHTML='<section class="hero"><div class="wrap"><div class="eyebrow">Bihar · Jobs · Education · Public Services</div><h1>The next opportunity starts here.</h1><p>Government jobs, admissions, scholarships and schemes relevant to Bihar. Check eligibility and official information first, then apply with confidence.</p><div class="search"><input id="q" type="search" placeholder="Search by form name, department or qualification…" aria-label="Search opportunities" value="'+esc(state.query)+'" autocomplete="off"><button id="sb">Search</button></div></div></section>'
+  $("#app").innerHTML='<section class="hero"><div class="wrap"><h1>The next opportunity starts here.</h1><p>Get all details of Government jobs, admissions, scholarships and schemes relevant to Bihar. </p><div class="search"><input id="q" type="search" placeholder="Search by form name, department or qualification…" aria-label="Search opportunities" value="'+esc(state.query)+'" autocomplete="off"><button id="sb">Search</button></div></div></section>'
   +'<div class="band"><div class="wrap"><div class="filters" id="filters">'+cats.map(c=>'<button class="chip '+(c===state.category?"on":"")+'" data-c="'+esc(c)+'">'+(c==="All"?"All forms":esc(c))+'</button>').join("")+'</div><p class="count" id="count"></p><div id="soonbox"></div><div id="listbox"></div></div></div>'
   +'<div class="note"><strong>Important:</strong> Cheetah Cyber Cafe provides application assistance, not recruitment or government approval. Always read the official notification. Eligibility does not guarantee selection.</div>';
   $("#q").addEventListener("input",e=>{state.query=e.target.value;list()});
